@@ -1,0 +1,242 @@
+/*header nav footer main
+
+*{
+      font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+    
+    background-color: cornflowerblue;
+}
+*/
+
+a{
+    color: black;
+}
+
+header{ 
+    position: relative;
+
+    left: 15%;
+    
+
+    width: 1366px;
+    height: 300px;
+
+
+
+    background-color: rgb(19, 25, 33);
+
+}
+
+header div{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+        overflow: hidden;
+        margin-left: 50px;
+        padding: 20px;
+
+
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+    position: relative;
+    left: 15%;
+    
+    width: 1366px;
+    height: 50px;
+
+    background-color: rgb(35, 47, 62);
+
+}
+
+nav div{
+    position: relative;
+    bottom: -10px;
+    display: inline-block;
+    padding: 5px;
+
+    width: 125px;
+
+    background-color:  rgb(55, 71, 90);
+}
+
+div.mover~div{
+    position: relative;
+    bottom: -10px;
+    left: 525px;
+    display: inline-block;
+    padding: 5px;
+
+    width: 125px;
+
+    background-color: rgb(55, 71, 90);
+}
+
+nav a{
+    padding: 5px;
+    
+}
+
+
+main{
+    position: relative;
+    left: 15%;
+    width: 1366px;
+    height: 1354px;
+    display: grid;
+    place-items: center;
+    background-color: rgb(232, 232, 232);
+
+}
+
+
+footer{
+    position: relative;
+    left: 15%;
+    width: 1366px;
+    height: 272px;
+    
+ background-color: rgb(35, 47, 62);
+}
+
+footer div{
+    position: relative;
+    display: block;
+    padding: 5px;
+    width: 125px;
+    height: 58px;
+    background-color:  rgb(55, 71, 90);
+}
+
+footer a{
+    padding: 5px;
+}
+
+section.hojadeformulario{
+    position: relative;
+
+
+
+    bottom: 350px;
+
+    width: 500px;
+    height: 350px;
+
+    background-color: rgb(249, 237, 237);
+}
+
+div.formulario{
+    position: relative;
+
+    padding-top: 40px;
+
+    display: flex;
+    width: 500px;
+
+    flex-direction: column; /* Pone los elementos en columna */
+  align-items: center;    /* Centra horizontalmente */
+  gap: 10px;
+}
+
+/*section>label+input{
+    position: relative;
+
+    display: flex;
+
+flex-direction: column; 
+  align-items: center;    
+  gap: 10px;
+  padding: 10px;
+
+    width: 250px;
+
+}*/
+
+section.cat{
+    
+    width: 1300px;
+    height: 1150px;
+    background-color: rgb(249, 237, 237);
+    
+}
+
+section.cat>h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+section.abuelo{
+
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: darkorange;
+    margin: 10px;
+}
+div.elapa{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+}
+
+div.elapa>h2{
+position: absolute;
+  bottom: 0;              /* Pegado al borde inferior */
+  left: 0;
+  width: 100%;            /* Para que ocupe todo el ancho */
+  text-align: center;
+  background-color: rgb(31, 31, 189);
+}
+
+div.elapa>img{
+    width: 100%;
+    height: 100%;
+}
+
+div.info{
+    position: absolute;
+    top: 100%; /* Empieza justo debajo del padre (fuera de vista) */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 0.6s ease;
+    background-color: rgb(25, 58, 167);
+}
+div>h3{
+    
+    text-align: center;
+}
+
+div.elapa:hover div.info{
+    top: 0;
+}
+
+table{
+    background-color: rgb(0, 0, 0);
+}
+
+th{
+    font-size: 50px;
+
+    background-color: rgb(55, 71, 90);
+}
+
+td{
+    width: 300px;
+    height: 300px;
+}
+
+td>img{
+    width: 100%;
+    height: 100%;
+
+}
